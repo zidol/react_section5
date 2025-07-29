@@ -1,14 +1,11 @@
 import "./App.css";
-import { useState } from "react";
 
-import Bulb from "./components/Bulb";
-import Couter from "./components/Counter";
+import Register from "./components/Register";
 
 function App() {
   return (
     <>
-      <Bulb />
-      <Couter />
+      <Register />
     </>
   );
 }
